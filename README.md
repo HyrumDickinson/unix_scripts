@@ -17,5 +17,5 @@ If you want to run a more thourough update, run `update_everything.zsh` which up
 
 
 
-NOTE: this code was written to run on the a 2020 M1 MacBook Pro's macOS Monterey .zsh terminal. Scripts may require tweaking to run on other systems. Only compatible with UNIX-based operating systems.
+NOTE: this code was written to run on the 2020 M1 MacBook Pro macOS Monterey .zsh terminal. Scripts may require tweaking to run on other systems. Only compatible with UNIX-based operating systems.
   
