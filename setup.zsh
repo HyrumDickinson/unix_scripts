@@ -13,8 +13,12 @@
 # install wget (a non-interactive installer)
 brew install wget
 
-# install vs code (a code editor)
+# install vs code (a code editor) and assign it a command line alias
 brew install --cask visual-studio-code
+cat << EOF >> ~/.zprofile
+# Add Visual Studio Code (code)
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+EOF
 
 # install git (a version control system)
 brew install git
