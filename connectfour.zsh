@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 cd /Users/hyrumdickinson/git/Connect_Four_AI
 # replace "hyrumdickinson" with your own user directory name
