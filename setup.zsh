@@ -18,6 +18,7 @@ brew install --cask visual-studio-code
 
 # install git (a version control system)
 brew install git
+export PATH=/usr/local/bin:$PATH # configures your computer to use homebrew version of git instead of the apple one
 
 # navigate to where you want to put your code (you may adjust this code as desired)
 cd /Users/hyrumdickinson/ # replace "hyrumdickinson" with your own username
