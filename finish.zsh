@@ -14,7 +14,7 @@ cd Solar_Panel_Protection_System
 git pull
 git push
 cd ..
-cd TicTacToe_AI
+cd TicTacToe_SmartBoard
 git pull
 git push
 cd ..
