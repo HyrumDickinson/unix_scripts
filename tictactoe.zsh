@@ -1,7 +1,7 @@
 #1/bin/zsh
 
-cd Users/hyrumdickinson/git/TicTacToe_SmartBoard
+cd Users/hyrumdickinson/git/TicTacToe_SmartBoard # replace "hyrumdickinson" with your own user directory name
 git pull
 git push
 cd ..
-# I have not found a way to open KiCad or Arduino IDE through the command line, so you'll still have to pull up those manually for now
+# I haven't figured out a way to open KiCad or Arduino IDE through the command line
