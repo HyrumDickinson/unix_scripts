@@ -7,6 +7,10 @@
 # the script will stop until you have typed your password correctly and pressed "ENTER", and the command line authentication is satisfied
 # additionally, your command line will ask you for verification several times throughout the process
 
+# NOTE: the easiest way to run this file is to copy-paste the entire thing into your UNIX terminal. 
+# Attempting to download or clone it as a file, and then run it, could make you run into certain issues that would be more work to fix than they're worth, or introduce critical errors into your setup. 
+# The most error-free, simple, and low-risk solution is to open a fresh new terminal instance, and copy paste this entire thing without doing anything else in the terminal first.
+
 # install homebrew (a package manager)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -32,9 +36,17 @@ cd git
 git clone https://github.com/HyrumDickinson/Connect_Four_AI
 git clone https://github.com/HyrumDickinson/Solar_Panel_Protection_System
 git clone https://github.com/HyrumDickinson/TicTacToe_SmartBoard
-git clone https://github.com/HyrumDickinson/TicTacToe_AI
-git clone https://github.com/HyrumDickinson/unix_scripts
 git clone https://github.com/HyrumDickinson/powershell_scripts
+git clone https://github.com/HyrumDickinson/unix_scripts
+
+# make the shell script files executable
+cd unix_scripts
+chmod +x setup.zsh
+chmod +x connectfour.zsh
+chmod +x tictactoe.zsh
+chmod +x solarpanels.zsh
+chmod +x finish.zsh
+chmod +x update_everything.zsh
 
 # install vs code (a code editor)
 brew install --cask visual-studio-code
