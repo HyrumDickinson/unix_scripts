@@ -16,7 +16,6 @@ brew install wget
 # install vs code (a code editor) and assign it a command line alias
 brew install --cask visual-studio-code
 cat << EOF >> ~/.zprofile
-# Add Visual Studio Code (code)
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 EOF
 
@@ -25,7 +24,7 @@ brew install git
 export PATH=/usr/local/bin:$PATH # configures your computer to use homebrew version of git instead of the apple one
 
 # navigate to where you want to put your code (you may adjust this code as desired)
-cd /Users/hyrumdickinson/ # replace "hyrumdickinson" with your own username
+cd /Users/hyrumdickinson/ # replace "hyrumdickinson" with your own user directory name
 mkdir git
 cd git
 
