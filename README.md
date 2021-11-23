@@ -11,7 +11,7 @@ Command-line scripting allows me to easily navigate my code base, save my work, 
 
 Each of my projects has a `return.zsh` file that exits the project, saves everything to the cloud, and navigates back to the base `unix_scripts` folder where the other scripts lie. 
 
-At the end of each coding session, I recommend running `finish.ps1`. This script pulls and pushes my repos to make sure everything is up to date with no sync errors. I run it at the end of every coding session to make sure my edits are safely stored to the cloud before I shut my computer for the night.
+At the end of each coding session, I recommend running `finish.zsh`. This script pulls and pushes my repos to make sure everything is up to date with no sync errors. I run it at the end of every coding session to make sure my edits are safely stored to the cloud before I shut my computer for the night.
 
 If you want to run a more thorough update, run `update_everything.zsh` which updates all the software and code used in the system (except VS code, which doesn't have a command-line update option), so you can be confident you're using the new stable builds of all your programming tools. 
 
