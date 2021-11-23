@@ -61,7 +61,7 @@ brew install --cask visual-studio-code
 # install anaconda (a python environment manager)
 brew install --cask anaconda
 conda init zsh 
-xport PATH="/usr/local/anaconda3/bin:$PATH"
+export PATH="/usr/local/anaconda3/bin:$PATH"
 
 # set up anaconda python environments
 conda create --name python2_solarpanels python=2
