@@ -18,4 +18,4 @@ conda update -n python3_tictactoe --all # may not be necessary
 conda update -n python3_connectfour --all # may not be necessary
 
 # update all repos
-./Users/hyrumdickinson/git/start.zsh
+./Users/hyrumdickinson/git/start.zsh # replace "hyrumdickinson" with your own username
