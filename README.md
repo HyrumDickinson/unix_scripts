@@ -7,7 +7,7 @@ Command-line scripting allows me to easily navigate my code base, save my work, 
 
 `setup.zsh` installs everything necessary to get up and running on a new computer. It installs and configures homebrew, wget, git, vs code, and anaconda. It creates a code folder and places a local copy of each of my projects within it, setting up a unique anaconda environment for each one. 
 
-`tictactoe.zsh`, `connectfour.zsh`, and `solarpanels.zsh` get everything ready for work on their projects. `unix.zsh` and `powershell.zsh` synchronize my local unix_scripts or powershell_scripts repo, respectively, and opens the selection for editing in VS Code.
+`tictactoe.zsh`, `connectfour.zsh`, and `solarpanels.zsh` pull and push the lastest code for their projects from the cloud, open code editors, and get everything ready for work on their respective projects.
 
 At the end of each coding session, I recommend running `finish.zsh`. This script pulls and pushes my repos to make sure everything is up to date with no sync errors. I run it at the end of every coding session to make sure my edits are safely stored to the cloud before I shut my computer for the night.
 
