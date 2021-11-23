@@ -6,4 +6,3 @@ git pull
 git push
 cd ..
 code Connect_Four_AI
-cd Connect_Four_AI
