@@ -27,6 +27,13 @@ EOF
 brew install git
 export PATH=/usr/local/bin:$PATH # configures your computer to use homebrew version of git instead of the apple one
 
+# configure git for first-time setup
+git config --global user.name "HyrumDickinson" # replace with your username
+git config --global user.email hyrumsd2@illinois.edu # replace with you git account email
+git config --global core.editor code
+git config --global init.defaultBranch main
+git config --global pull.rebase false
+
 # navigate to where you want to put your code (you may adjust this code as desired)
 cd /Users/hyrumdickinson/ # replace "hyrumdickinson" with your own user directory name
 mkdir git
