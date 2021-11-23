@@ -1,7 +1,6 @@
 #!/bin/zsh
 
-cd /Users/hyrumdickinson/git
-# if using this script to work on my code on your own system, modify the starting path to use your user name
+cd /Users/hyrumdickinson/git # replace "hyrumdickinson" with your own user directory name
 
 cd Connect_Four_AI
 git pull
