@@ -1,4 +1,4 @@
-#1/bin/zsh
+#!/bin/zsh
 
 # update homebrew
 brew update
